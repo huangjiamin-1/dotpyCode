@@ -3,6 +3,7 @@
 # 本代码力求解释DBF中的FFT方法与(Bartlett beamforming)直接角度搜索算法的一致性
 # 注意：FFT的方法与最大能量的DBF方法是不同的两类算法 
 # 第一次用github
+# 在均匀阵列下，dbf与fft的结果是一致的，但是在非均匀阵列条件下，结果是不一致的，dbf的方式是遵循了MF的理论，但是fft只是dbf在均匀阵列下的快速实现
 
 import numpy as np
 import math
